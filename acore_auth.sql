@@ -1,8 +1,8 @@
--- MariaDB dump 10.19-11.0.2-MariaDB, for Linux (x86_64)
+-- MariaDB dump 10.19-11.2.2-MariaDB, for Linux (x86_64)
 --
 -- Host: localhost    Database: acore_auth
 -- ------------------------------------------------------
--- Server version	11.0.2-MariaDB
+-- Server version	11.2.2-MariaDB
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -59,8 +59,8 @@ CREATE TABLE `account` (
 LOCK TABLES `account` WRITE;
 /*!40000 ALTER TABLE `account` DISABLE KEYS */;
 INSERT INTO `account` VALUES
-(1,'ACORE','˜2Í=ÒSeÇ„‰ˇ≥¸JxAÂr≈läÂféyMîkõv','¸¿n\Zs¿u◊êR—¸◊9∫¢ÖxÈÌë∑˘î§w','ñ,\'ò–”ˆTG»‚	ù∑=°›\rvº65É\0ˆw”…ÿ◊ iN[ñ',NULL,'','','2023-02-08 12:25:28','192.168.1.116','192.168.1.116',0,0,'00','2023-07-20 07:40:18',1,2,0,'','',0,'Win',0,177034),
-(2,'ACORE2','¿U\r4Ô©†mi´Ê&∫¸Fèm–wÊÛæ~B€†èõq','≥ıÊ≈\"í˝xﬂ˝1~≈[ï6`¨,ç(•Ù,ÿΩÍ®n','cÚäh.[Ë*ïƒzañöﬂ .“√‚o[ëe\0Õ^÷Ã£ãÉj\'Z9ªJ',NULL,'','','2023-03-07 12:46:30','192.168.1.114','192.168.1.114',0,0,'00','2023-03-18 09:09:03',0,2,0,'','',0,'Win',0,654);
+(1,'ACORE','˜2Í=ÒSeÇ„‰ˇ≥¸JxAÂr≈läÂféyMîkõv','¸¿n\Zs¿u◊êR—¸◊9∫¢ÖxÈÌë∑˘î§w','?lR†üBßhì∫˚—/wYœô^“üZ-ã˛é„ÖﬁÓà(ßö2ã',NULL,'','','2023-02-08 12:25:28','127.0.0.1','127.0.0.1',0,0,'00','2024-01-15 20:47:28',0,2,0,'','',0,'',0,1557507),
+(2,'ACORE2','¿U\r4Ô©†mi´Ê&∫¸Fèm–wÊÛæ~B€†èõq','≥ıÊ≈\"í˝xﬂ˝1~≈[ï6`¨,ç(•Ù,ÿΩÍ®n','Ú0í‡E∫©ß\\Ê¬PÃoNEÂÒñ3Â”-sœ~K,LÌ©~ﬂk',NULL,'','','2023-03-07 12:46:30','192.168.1.114','127.0.0.1',0,0,'00','2023-10-14 20:58:46',0,2,0,'','',0,'Win',0,797);
 /*!40000 ALTER TABLE `account` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -343,7 +343,7 @@ LOCK TABLES `realmcharacters` WRITE;
 /*!40000 ALTER TABLE `realmcharacters` DISABLE KEYS */;
 INSERT INTO `realmcharacters` VALUES
 (1,1,10),
-(1,2,1);
+(1,2,4);
 /*!40000 ALTER TABLE `realmcharacters` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -380,7 +380,7 @@ CREATE TABLE `realmlist` (
 LOCK TABLES `realmlist` WRITE;
 /*!40000 ALTER TABLE `realmlist` DISABLE KEYS */;
 INSERT INTO `realmlist` VALUES
-(1,'AzerothCore','192.168.1.135','127.0.0.1','255.255.255.0',8085,1,0,1,0,0,12340);
+(1,'AzerothCore','192.168.1.223','127.0.0.1','255.255.255.0',8086,1,0,1,0,0,12340);
 /*!40000 ALTER TABLE `realmlist` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -819,7 +819,62 @@ INSERT INTO `uptime` VALUES
 (1,1688926832,319,0,'AzerothCore rev. d421b266211c 2023-07-04 13:35:53 +0200 (master branch) (Unix, Debug, Static)'),
 (1,1689747124,16880,1,'AzerothCore rev. d421b266211c 2023-07-04 13:35:53 +0200 (master branch) (Unix, Debug, Static)'),
 (1,1689804000,500,0,'AzerothCore rev. d421b266211c 2023-07-04 13:35:53 +0200 (master branch) (Unix, Debug, Static)'),
-(1,1689832416,17051,1,'AzerothCore rev. d421b266211c 2023-07-04 13:35:53 +0200 (master branch) (Unix, RelWithDebInfo, Static)');
+(1,1689832416,17051,1,'AzerothCore rev. d421b266211c 2023-07-04 13:35:53 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1690866698,67,0,'AzerothCore rev. 0958cf216259 2023-07-31 16:35:22 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1690951870,33607,1,'AzerothCore rev. 0798ae66d80e 2023-08-01 10:29:19 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1691994521,170111,1,'AzerothCore rev. 0798ae66d80e 2023-08-01 10:29:19 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1692171068,311,1,'AzerothCore rev. 0798ae66d80e 2023-08-01 10:29:19 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1692171409,348731,1,'AzerothCore rev. 0798ae66d80e 2023-08-01 10:29:19 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1692821722,134,0,'AzerothCore rev. a216baabd5e7 2023-08-23 15:55:15 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1692940651,1931,1,'AzerothCore rev. a216baabd5e7 2023-08-23 15:55:15 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1692948104,14651,1,'AzerothCore rev. 8fafabbf4378+ 2023-08-25 09:12:17 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1692962933,311,1,'AzerothCore rev. 8ccc7ea2aaef+ 2023-08-25 09:15:43 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1692963551,15130,1,'AzerothCore rev. 8ccc7ea2aaef 2023-08-25 09:15:43 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1693037041,70,1,'AzerothCore rev. 8ccc7ea2aaef+ 2023-08-25 09:15:43 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1693037259,371,1,'AzerothCore rev. 8ccc7ea2aaef+ 2023-08-25 09:15:43 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1693037764,190,1,'AzerothCore rev. 8ccc7ea2aaef+ 2023-08-25 09:15:43 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1693038591,130,1,'AzerothCore rev. 8ccc7ea2aaef+ 2023-08-25 09:15:43 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1693039579,69,1,'AzerothCore rev. 8ccc7ea2aaef+ 2023-08-25 09:15:43 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1693041924,670,1,'AzerothCore rev. 8ccc7ea2aaef+ 2023-08-25 09:15:43 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1693042763,70,1,'AzerothCore rev. 8ccc7ea2aaef+ 2023-08-25 09:15:43 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1693042940,130,1,'AzerothCore rev. 8ccc7ea2aaef+ 2023-08-25 09:15:43 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1693043622,69,1,'AzerothCore rev. 8ccc7ea2aaef+ 2023-08-25 09:15:43 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1693043932,70,1,'AzerothCore rev. 8ccc7ea2aaef+ 2023-08-25 09:15:43 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1693044130,70,1,'AzerothCore rev. 8ccc7ea2aaef+ 2023-08-25 09:15:43 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1693044329,69,1,'AzerothCore rev. 8ccc7ea2aaef+ 2023-08-25 09:15:43 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1693044906,70,1,'AzerothCore rev. 8ccc7ea2aaef+ 2023-08-25 09:15:43 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1693045148,371,1,'AzerothCore rev. 8ccc7ea2aaef+ 2023-08-25 09:15:43 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1693045960,70,1,'AzerothCore rev. 8ccc7ea2aaef+ 2023-08-25 09:15:43 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1693046167,71,1,'AzerothCore rev. 8ccc7ea2aaef+ 2023-08-25 09:15:43 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1693046323,190,1,'AzerothCore rev. 8ccc7ea2aaef+ 2023-08-25 09:15:43 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1693058913,75,1,'AzerothCore rev. 8ccc7ea2aaef+ 2023-08-25 09:15:43 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1693059201,736,1,'AzerothCore rev. 8ccc7ea2aaef+ 2023-08-25 09:15:43 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1693060634,1390,1,'AzerothCore rev. 8ccc7ea2aaef+ 2023-08-25 09:15:43 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1693062079,368,1,'AzerothCore rev. 8ccc7ea2aaef+ 2023-08-25 09:15:43 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1693081622,43152,1,'AzerothCore rev. 0739541191ef+ 2023-08-26 17:11:09 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1693127912,40330,1,'AzerothCore rev. 0739541191ef+ 2023-08-26 17:11:09 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1693201382,7511,1,'AzerothCore rev. 92619be57fa3+ 2023-08-27 10:54:58 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1693209013,1849833,1,'AzerothCore rev. 92619be57fa3+ 2023-08-27 10:54:58 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1695059846,399631,1,'AzerothCore rev. acc8cb3ef0b5+ 2023-09-18 19:54:47 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1695459593,191,1,'AzerothCore rev. ce60e27b0a58 2023-09-22 09:58:25 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1695459892,4991,1,'AzerothCore rev. ce60e27b0a58+ 2023-09-22 09:58:25 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1695645210,18130,0,'AzerothCore rev. 72fa9fc962ea 2023-09-25 07:20:10 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1695665890,521720,1,'AzerothCore rev. 72fa9fc962ea 2023-09-25 07:20:10 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1696190483,1086918,1,'AzerothCore rev. 72fa9fc962ea 2023-09-25 07:20:10 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1697278677,23651,1,'AzerothCore rev. cd14a7c73402 2023-10-13 07:35:57 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1697317073,39408,0,'AzerothCore rev. cd14a7c73402 2023-10-13 07:35:57 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1700300811,1810,0,'AzerothCore rev. cd14a7c73402 2023-10-13 07:35:57 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1700803717,41946,1,'AzerothCore rev. cd14a7c73402 2023-10-13 07:35:57 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1700859534,66013,1,'AzerothCore rev. cd14a7c73402 2023-10-13 07:35:57 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1701011346,522379,1,'AzerothCore rev. cd14a7c73402 2023-10-13 07:35:57 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1701537381,3010,1,'AzerothCore rev. cd14a7c73402 2023-10-13 07:35:57 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1701541947,3849,1,'AzerothCore rev. cd14a7c73402 2023-10-13 07:35:57 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1701546062,9497,1,'AzerothCore rev. cd14a7c73402 2023-10-13 07:35:57 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1701807364,119200,1,'AzerothCore rev. cd14a7c73402 2023-10-13 07:35:57 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1702751969,57938,1,'AzerothCore rev. cd14a7c73402 2023-10-13 07:35:57 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1704316995,218366,0,'AzerothCore rev. cd14a7c73402+ 2023-10-13 07:35:57 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1705349973,429,0,'AzerothCore rev. cd14a7c73402+ 2023-10-13 07:35:57 +0200 (master branch) (Unix, RelWithDebInfo, Static)'),
+(1,1705351627,499568,0,'AzerothCore rev. cd14a7c73402+ 2023-10-13 07:35:57 +0200 (master branch) (Unix, RelWithDebInfo, Static)');
 /*!40000 ALTER TABLE `uptime` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -832,4 +887,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-07-31 10:17:24
+-- Dump completed on 2024-01-21 16:33:43
